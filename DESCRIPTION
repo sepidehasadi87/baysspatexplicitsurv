@@ -1,0 +1,16 @@
+Package: baysspatexplicitsurv
+Type: Package
+Title: Bayesian Analysis of Explicit Spatial Zero-Inflated Survival Model
+Version: 0.1.0
+Author: Sepideh Asadi <s.asadimit48@gmail.com>
+Maintainer: Your Name <your.email@example.com>
+Description: This package implements functions for simulating data, calculating likelihoods, and performing Bayesian inference using Metropolis-Hastings algorithm for  spatial zero-inflated and right-censored time to event data.
+License: What license it uses
+Imports:
+  MLmetrics,
+  MHadaptive,
+  metropolis,
+  coda,
+  BayesianTools,
+  geoR
+RoxygenNote: 7.3.2
